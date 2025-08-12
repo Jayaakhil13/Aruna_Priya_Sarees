@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf6f0;
+  margin: 0;
+  padding: 0;
+  color: #7b2d26;
+}
+
+/* Header */
+header {
+  background-color: #7b2d26;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* Sections */
+.section {
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Buttons */
+.button {
+  background-color: #7b2d26;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #5e201b;
+}
+
+/* Inputs */
+input {
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Orders */
+.orders {
+  background-color: #fff;
+  border: 1px solid #e0cfc2;
+  border-radius: 10px;
+}
+
+.order-item {
+  border-bottom: 1px solid #eee;
+  padding: 0.5rem 0;
+}
+
+/* Products */
+.products {
+  background-color: #fff;
+  border: 1px solid #e0cfc2;
+  border-radius: 10px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.product-item {
+  border: 1px solid #e0cfc2;
+  border-radius: 5px;
+  padding: 0.8rem;
+  background-color: #fffaf5;
+  text-align: center;
+}
+
+/* Payment */
+.payment {
+  background-color: #fff;
+  border: 1px solid #e0cfc2;
+  border-radius: 10px;
+}
+
